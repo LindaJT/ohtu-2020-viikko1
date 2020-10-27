@@ -72,7 +72,7 @@ public class Varasto {
             return kaikkiMitaVoidaan;  // poistutaan saman tien
         }
         // jos tänne päästään, kaikki pyydetty voidaan antaa
-        saldo = saldo - maara;  // vähennetään annettava saldosta
+        saldo = saldo - maara;  
         return maara;
     }
 
